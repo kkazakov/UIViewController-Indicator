@@ -29,7 +29,7 @@
     hud.dimBackground = YES;
     hud.taskInProgress = YES;
     hud.graceTime = waitSeconds;
-    hud.labelText = @"Loading";
+    hud.labelText = NSLocalizedString(@"Loading", @"");
     [hud show:YES];
 }
 
