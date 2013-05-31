@@ -1,7 +1,7 @@
 UIViewController+Indicator
 ==========================
 
-##Category for ViewController, displaying loading indicator with MBProgressHUD (not included).
+######Category for ViewController, displaying loading indicator with MBProgressHUD (not included).
 
 Right now it's using your app's delegate as primary window (the idea is to block it completely, without access to underlying UI elements).
 
@@ -23,7 +23,7 @@ The following methods are available:
                     wait:(int)iWait;
 ```
 
-##Usage:
+######Usage:
 
 This will display it after 2 seconds. If you want to display it immediately, use 0.1 as value. If you use 0 or don't specify it, the default 0.8 seconds will be used.
 
